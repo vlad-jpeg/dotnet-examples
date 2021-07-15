@@ -20,13 +20,13 @@ jobs:
         include-prerelease: true
     
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore source/ef-examples.csproj
       
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build source/ef-examples.csproj --no-restore
       
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test source/ef-examples.csproj --no-build --verbosity normal
       
     - name: Qodana - Code Inspection
       uses: JetBrains/qodana-action@v2.0-eap
