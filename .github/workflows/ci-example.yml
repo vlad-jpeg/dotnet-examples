@@ -34,3 +34,17 @@ jobs:
         project-dir: ${{ github.workspace }}
         results-dir: ${{ github.workspace }}/qodana-results
         cache-dir: /home/runner/work/_temp/_github_home/qodana-cache
+    - uses: actions/upload-artifact@v2
+      with:
+        path: ${{ github.workspace }}/qodana
+    - uses: actions/download-artifact@v2
+      id: download
+      with:
+        name: 'artifact'
+        path: qodana
+    - name: Deploy to Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./qodana/report
+        destination_dir: ./
