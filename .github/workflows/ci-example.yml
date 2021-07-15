@@ -41,7 +41,7 @@ jobs:
       id: download
       with:
         name: 'artifact'
-        path: qodana
+        path: ${{ github.workspace }}/qodana
     - name: Deploy to Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
