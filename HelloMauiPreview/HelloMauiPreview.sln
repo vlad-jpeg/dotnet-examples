@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31220.234
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMauiPreview", "HelloMauiPreview\HelloMauiPreview.csproj", "{1CEDEB16-D681-4E31-9C3D-3D94A948D4C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMauiPreview.WinUI", "HelloMauiPreview.WinUI\HelloMauiPreview.WinUI.csproj", "{59B73439-09F4-4C61-9936-2D0450ECEEF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CEDEB16-D681-4E31-9C3D-3D94A948D4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CEDEB16-D681-4E31-9C3D-3D94A948D4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CEDEB16-D681-4E31-9C3D-3D94A948D4C1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1CEDEB16-D681-4E31-9C3D-3D94A948D4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CEDEB16-D681-4E31-9C3D-3D94A948D4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CEDEB16-D681-4E31-9C3D-3D94A948D4C1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{59B73439-09F4-4C61-9936-2D0450ECEEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B73439-09F4-4C61-9936-2D0450ECEEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B73439-09F4-4C61-9936-2D0450ECEEF1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{59B73439-09F4-4C61-9936-2D0450ECEEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B73439-09F4-4C61-9936-2D0450ECEEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B73439-09F4-4C61-9936-2D0450ECEEF1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
